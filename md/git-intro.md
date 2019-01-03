@@ -12,6 +12,18 @@
     - git push -u origin master    
     - git push
 
++ git pull
+
++ git merge
+
++ 
+
+q
+
+
+### 解决冲突
 
 ### .gitignore文件
-用来忽略一些不想提交到仓库的本地文件    
+用来忽略一些不想提交到仓库的本地文件 
+
+
