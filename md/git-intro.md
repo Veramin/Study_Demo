@@ -16,9 +16,18 @@
 
 + git merge
 
-+ 
 
-q
++ git branch
+    - git branch name
+
++ git checkout 
+    - git checkout branchName
+
++ *git stash
+
++ *git rebase 
+
++ *git cherry-pick
 
 
 ### 解决冲突
