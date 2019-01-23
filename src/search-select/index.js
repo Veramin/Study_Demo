@@ -32,7 +32,7 @@ const countries = window.countries = ["Afghanistan","Albania","Algeria","Andorra
 "United Arab Emirates","United Kingdom","United States of America",
 "Uruguay","Uzbekistan","Vanuatu",
 "Venezuela","Viet Nam","Yemen","Zambia","Zimbabwe"].map((t, index) => {
-    return `${t}_${index}`
+    return `${t}_${index}`;
 });
 
 
@@ -48,19 +48,19 @@ const renderList = (keyword = '') => {
         keyword = keyword.toUpperCase();
         list.reverse().sort((oneCountry, nextCountry) => {
             const oneFlag = oneCountry.toUpperCase().startsWith(keyword);
-            const nextFlag = nextCountry.toUpperCase().startsWith(keyword)
+            const nextFlag = nextCountry.toUpperCase().startsWith(keyword);
             // 后面一个以关键字开头,且前面一个不以关键字开头才换位
             if(!oneFlag && nextFlag){
                 return 1;
             }
             return -1;
-        })
+        });
     }
     const listHtml = list.reduce((rs, country) => {
         return `${rs}<li>${country}</li>`;
     }, '');
     ul.innerHTML = listHtml;
-}
+};
 
 
 input.addEventListener('input', (e) => {
