@@ -1,0 +1,12 @@
+ul, li{
+    list-style: none;
+}
+
+ul.complete-list li{
+    display: inline-block;
+    margin: 2px 5px;
+}
+
+ul.complete-list li:hover{
+    background: green;
+}
