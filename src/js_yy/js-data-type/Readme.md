@@ -37,7 +37,7 @@
     var str11 = true + false;
     console.log(str11); // 1
 
-    var str11 = true + 100;
+    var str12 = true + 100;
     console.log(str12); // 101
 
     var str13 = "true" + 100;
