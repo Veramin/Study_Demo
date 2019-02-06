@@ -1,0 +1,36 @@
+
+
+#minefield > .grid{
+    float: left;
+    width: 20px;
+    height:20px;
+    border: solid 1px gray;
+    background: lightgray;
+    text-align: center;
+    user-select: none;
+}
+
+#minefield > .grid:hover{
+    background: rgb(247, 192, 192);
+}
+
+#minefield > .grid.detected{
+    background: rgb(255, 255, 255);
+}
+
+#minefield > .grid.marked{
+    background: rgb(0, 255, 64);
+}
+
+#minefield > .grid.doubt{
+    background: rgb(247, 98, 98);
+}
+
+#minefield > .grid.mistake{
+    background: rgb(243, 0, 0);
+}
+
+#minefield > .grid.doom{
+    color: rgb(243, 0, 0);
+    font-weight: bold;
+}

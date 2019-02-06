@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./index.css">
 </head>
+
 <body>
     <div id="container">
         <select name="grade" id='grade'>
@@ -15,11 +17,21 @@
             <option value="hard">hard</option>
         </select>
     </div>
+    <button id='resetor'>reset</button>
     <div>
-        <span>count:</span>
-        <span id='count'>0</span>
+        <span>步数:</span>
+        <span id='step-count'>0</span>
+    </div>
+    <div>
+        <span>雷数:</span>
+        <span id='mine-count'>0</span>
+    </div>
+    <div>
+        <span>标记数:</span>
+        <span id='marked-count'>0</span>
     </div>
     <div id="minefield"></div>
     <script src="./index.js"></script>
 </body>
+
 </html>
